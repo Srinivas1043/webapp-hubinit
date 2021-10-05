@@ -48,12 +48,14 @@
 }
 
 .moreabout-coltwo {
-    margin-right: -300px;
+    margin-right: -400px;
+    margin-top: -100px;
 }
 
 .meetourleaders-section {
     margin-top: 200px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .meetourleaders-section h1 {
@@ -61,7 +63,7 @@
 }
 
 .carousel-team-cards {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -75,11 +77,11 @@
     background-color: #ED6C05 !important;
 }
 
-.carousel-control-prev {
+.teamprev {
     display: none;
 }
 
-.carousel-control-next {
+.teamnext {
     display: none;
 }
 
@@ -102,4 +104,49 @@
 .team-designation {
     font-size: 25px;
     font-style: bold;
+}
+
+.professional-services {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.prof-row {
+    margin-top: 100px;
+    margin-left: -300px;
+    margin-right: -300px;
+}
+
+.prof-row-two {
+    margin-left: -300px;
+    margin-right: -300px;
+}
+
+.prof-row-three {
+    margin-left: -300px;
+    margin-right: -300px;
+}
+
+.prof-row-one {
+    margin-left: -300px;
+    margin-right: -300px;
+}
+
+.professional-services .card:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.418), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.ourpartners {
+    margin-bottom: 150px;
+}
+
+.ourpartners h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.ourparters-row img {
+    border: none !important;
 }

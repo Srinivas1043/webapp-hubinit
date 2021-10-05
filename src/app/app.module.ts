@@ -9,6 +9,7 @@ import { TechnologiesComponent } from './technologies/technologies.component';
 import { SolutionsComponent } from './solutions/solutions.component';
 import { CommunityComponent } from './community/community.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AboutComponent,
     TechnologiesComponent,
     SolutionsComponent,
-    CommunityComponent
+    CommunityComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
