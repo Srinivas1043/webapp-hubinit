@@ -4,6 +4,7 @@
 
 .img-thumbnail {
     border: none !important;
+    margin-left: 40px;
 }
 
 .navbar-brand {
@@ -13,7 +14,7 @@
 }
 
 .navbar-nav {
-    margin-left: -490px !important;
+    margin-left: -430px !important;
     text-align: center !important;
 }
 
@@ -32,15 +33,37 @@
 }
 
 #logintext {
+    margin-left: 450px;
+    margin-bottom: 3px !important;
     color: #1F335F !important;
     text-decoration: none !important;
     font-weight: bold !important;
 }
 
 .btn-primary {
-    margin-top: -6px;
     color: #ffffff !important;
     background-color: #1F335F !important;
     border-radius: 50px !important;
     font-weight: bold !important;
+}
+
+#logintext:hover {
+    color: #1F335F !important;
+    border-bottom: none !important;
+}
+
+.btn-primary:hover {
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:active {
+    color: #ED6C05 !important;
+    border-bottom: 2px solid #ED6C05;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link[tabindex]:focus {
+    color: #ED6C05 !important;
+    border-bottom: 2px solid #ED6C05;
+    font-weight: bold;
 }
