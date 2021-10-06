@@ -1,0 +1,29 @@
+    .textcomingsoon {
+        margin-top: 200px;
+        text-align: center;
+        margin-left: -400px;
+        font-size: 50px;
+    }
+    
+    .btn-primary {
+        background-color: #ED6C05 !important;
+        border-color: #ED6C05 !important;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 30px;
+        border-radius: 30px;
+    }
+    
+    .primarycolor {
+        color: #1F335F !important;
+    }
+    
+    .secondarycolor {
+        color: #ED6C05 !important;
+    }
+    
+    .tertiarycolor {
+        color: #0084CB !important;
+    }

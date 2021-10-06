@@ -10,6 +10,9 @@ import { SolutionsComponent } from './solutions/solutions.component';
 import { CommunityComponent } from './community/community.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './footer/footer.component';
+import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { ErrorComponent } from './error/error.component';
+import { InvestorsComponent } from './investors/investors.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { FooterComponent } from './footer/footer.component';
     TechnologiesComponent,
     SolutionsComponent,
     CommunityComponent,
-    FooterComponent
+    FooterComponent,
+    ComingSoonComponent,
+    ErrorComponent,
+    InvestorsComponent
   ],
   imports: [
     BrowserModule,
