@@ -67,3 +67,29 @@
     border-bottom: 2px solid #ED6C05;
     font-weight: bold;
 }
+
+@media (max-width: 412px) {
+    .navbar-brand {
+        margin-left: -60px;
+    }
+    .navbar {
+        margin-right: -10px;
+    }
+    #logintext {
+        margin-left: -10px !important;
+    }
+    .navbar-nav .nav-item {
+        margin-right: -390px !important;
+        margin-bottom: 10px;
+    }
+    .navbar-toggler {
+        border: none !important;
+    }
+    .navbar-toggler:hover {
+        color: #ED6C05 !important;
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.418), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    }
+    .navbar-toggler-icon {
+        border-color: #ED6C05 !important;
+    }
+}
