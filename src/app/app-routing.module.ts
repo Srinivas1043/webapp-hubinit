@@ -17,9 +17,12 @@ const routes: Routes = [
   //{path:'app-community', component: CommunityComponent},
   {path:'app-about', component: AboutComponent},
   {path:'app-coming-soon', component: ComingSoonComponent},
-  {path:'**',component:ComingSoonComponent},
-  {path:'', redirectTo:'/app-about', pathMatch: 'full'}
+  {path:'app-investors',component:ComingSoonComponent},
+  {path:'app-solutions',component:ComingSoonComponent},
+  {path:'app-services',component:ComingSoonComponent},
 
+  //{path:'', redirectTo:'/app-about', pathMatch: 'full'},
+  {path:'', component: AboutComponent},
 ];
 
 @NgModule({
