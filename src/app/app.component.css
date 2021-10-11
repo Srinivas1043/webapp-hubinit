@@ -68,7 +68,7 @@
     font-weight: bold;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 500px) {
     .navbar-brand {
         margin-left: -60px;
     }
@@ -91,5 +91,24 @@
     }
     .navbar-toggler-icon {
         border-color: #ED6C05 !important;
+    }
+}
+
+@media (max-width: 1800px) {
+    .navbar-brand {
+        margin-left: -60px;
+    }
+    .navbar {
+        margin: 0px !important;
+    }
+    #logintext {
+        margin-left: 250px !important;
+    }
+    .navbar-nav .nav-item {
+        padding-left: 5px !important;
+    }
+    .navbar-nav {
+        text-align: center !important;
+        margin-left: -280px !important;
     }
 }

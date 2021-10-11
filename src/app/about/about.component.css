@@ -1,8 +1,8 @@
 .opening-statement {
     margin-top: 75px;
     font-size: 60px;
-    text-align: center !important;
     font-weight: bold !important;
+    text-align: center;
 }
 
 .primarycolor {
@@ -149,4 +149,15 @@
 
 .ourparters-row img {
     border: none !important;
+}
+
+@media (max-width: 1800px) {
+    .moreabout-colone {
+        margin-left: 0px;
+    }
+    .moreabout-coltwo img {
+        height: 500px;
+        width: 600px;
+        margin-right: 350px !important;
+    }
 }
